@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03A9B5891963270300F63467 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 03A9B5881963270300F63467 /* HeaderView.xib */; };
 		03C58A4618F5925700099E3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C58A4518F5925700099E3C /* Foundation.framework */; };
 		03C58A4818F5925700099E3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C58A4718F5925700099E3C /* CoreGraphics.framework */; };
 		03C58A4A18F5925700099E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C58A4918F5925700099E3C /* UIKit.framework */; };
@@ -19,6 +20,9 @@
 		03C58A6118F5925800099E3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03C58A4918F5925700099E3C /* UIKit.framework */; };
 		03C58A6918F5925800099E3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 03C58A6718F5925800099E3C /* InfoPlist.strings */; };
 		03C58A6B18F5925800099E3C /* HomepwnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C58A6A18F5925800099E3C /* HomepwnerTests.m */; };
+		03C58A7618F5931500099E3C /* BNRItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C58A7518F5931500099E3C /* BNRItemsViewController.m */; };
+		03C58A7918F5997600099E3C /* BNRItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C58A7818F5997600099E3C /* BNRItem.m */; };
+		03C58A7C18F5CD2600099E3C /* BNRItemStore.m in Sources */ = {isa = PBXBuildFile; fileRef = 03C58A7B18F5CD2600099E3C /* BNRItemStore.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		03A9B5881963270300F63467 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		03C58A4218F5925700099E3C /* Homepwner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Homepwner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03C58A4518F5925700099E3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03C58A4718F5925700099E3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,12 @@
 		03C58A6618F5925800099E3C /* HomepwnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HomepwnerTests-Info.plist"; sourceTree = "<group>"; };
 		03C58A6818F5925800099E3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		03C58A6A18F5925800099E3C /* HomepwnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomepwnerTests.m; sourceTree = "<group>"; };
+		03C58A7418F5931500099E3C /* BNRItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemsViewController.h; sourceTree = "<group>"; };
+		03C58A7518F5931500099E3C /* BNRItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemsViewController.m; sourceTree = "<group>"; };
+		03C58A7718F5997600099E3C /* BNRItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItem.h; sourceTree = "<group>"; };
+		03C58A7818F5997600099E3C /* BNRItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItem.m; sourceTree = "<group>"; };
+		03C58A7A18F5CD2600099E3C /* BNRItemStore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRItemStore.h; sourceTree = "<group>"; };
+		03C58A7B18F5CD2600099E3C /* BNRItemStore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRItemStore.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +88,13 @@
 		03C58A3918F5925700099E3C = {
 			isa = PBXGroup;
 			children = (
+				03A9B5881963270300F63467 /* HeaderView.xib */,
+				03C58A7718F5997600099E3C /* BNRItem.h */,
+				03C58A7818F5997600099E3C /* BNRItem.m */,
+				03C58A7A18F5CD2600099E3C /* BNRItemStore.h */,
+				03C58A7B18F5CD2600099E3C /* BNRItemStore.m */,
+				03C58A7418F5931500099E3C /* BNRItemsViewController.h */,
+				03C58A7518F5931500099E3C /* BNRItemsViewController.m */,
 				03C58A4B18F5925700099E3C /* Homepwner */,
 				03C58A6418F5925800099E3C /* HomepwnerTests */,
 				03C58A4418F5925700099E3C /* Frameworks */,
@@ -220,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03A9B5891963270300F63467 /* HeaderView.xib in Resources */,
 				03C58A5018F5925700099E3C /* InfoPlist.strings in Resources */,
 				03C58A5818F5925700099E3C /* Images.xcassets in Resources */,
 			);
@@ -240,6 +259,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03C58A7C18F5CD2600099E3C /* BNRItemStore.m in Sources */,
+				03C58A7618F5931500099E3C /* BNRItemsViewController.m in Sources */,
+				03C58A7918F5997600099E3C /* BNRItem.m in Sources */,
 				03C58A5218F5925700099E3C /* main.m in Sources */,
 				03C58A5618F5925700099E3C /* BNRAppDelegate.m in Sources */,
 			);
@@ -438,6 +460,7 @@
 				03C58A7018F5925800099E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		03C58A7118F5925800099E3C /* Build configuration list for PBXNativeTarget "HomepwnerTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +469,7 @@
 				03C58A7318F5925800099E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
